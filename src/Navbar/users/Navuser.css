@@ -1,0 +1,67 @@
+nav {
+  background-color: #f8f9fa; /* หรือเลือกสีตามที่ต้องการ */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  margin-bottom: 0; /* ลบ margin ที่อาจสร้างช่องว่างเกิน */
+  padding-bottom: 0; /* ลบ padding */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-space {
+  height: 60px; 
+}
+
+.custom-btn {
+  background-color: rgb(249, 249, 249); /* สีพื้นหลัง */
+  color: rgb(22, 10, 10); /* สีตัวอักษร */
+  border: 1px solid #000000; /* สีขอบ */
+  border-radius: 5px; /* ปรับมุมให้กลม */
+  padding: 10px 15px; /* ขนาด padding */
+  transition: background-color 0.3s, text-decoration 0.3s; /* เพิ่ม transition เมื่อเปลี่ยนสี */
+}
+
+.custom-btn:hover {
+  background-color: #ffffff; /* เปลี่ยนสีเมื่อเลื่อนเมาส์ */
+  border: 1px solid #000000; /* สีขอบ */
+  text-decoration: underline; /* ใส่เส้นใต้เมื่อ hover */
+}
+
+.custom-btn:focus {
+  outline: none; /* เอา outline ออก */
+  text-decoration: underline; /* ใส่เส้นใต้เมื่อ focus */
+}
+
+.nav-link {
+  text-decoration: none; /* เอาเส้นใต้ปกติออก */
+  color: #cdcdcd; /* กำหนดสีของลิงก์ */
+  transition: text-decoration 0.3s; /* เพิ่ม transition นุ่มนวล */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: underline; /* ใส่เส้นใต้เมื่อ hover หรือ focus */
+  color: #b8b8b8; /* เปลี่ยนสีลิงก์เมื่อ hover */
+}
+
+.nav-link:after {
+  content: ''; /* สร้างเส้นใต้ */
+  display: block;
+  height: 2px; /* ความหนาของเส้นใต้ */
+  background-color: #b8b8b8; /* เปลี่ยนเป็นสีเทา */
+  transform: scaleX(0); /* เริ่มต้นไม่แสดงเส้น */
+
+}
+.main-content {
+  margin-left: 0; /* ชิดกับ nav */
+  margin-top: 0; /* ถ้ามี margin-top อยู่ สามารถกำหนดเป็น 0 ได้ */
+  padding: 0; /* ลด padding ถ้าต้องการให้ชิดขึ้น */
+}

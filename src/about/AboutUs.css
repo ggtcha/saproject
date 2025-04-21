@@ -1,0 +1,15 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.about-us-title {
+    font-weight: 700; /* Bold for titles */
+    font-size: 24px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+.about-us-content {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}

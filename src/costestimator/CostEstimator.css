@@ -1,0 +1,40 @@
+/* Change the border color of the button */
+.btn-primary {
+    background-color: hsl(0, 0%, 97%); /* Default background color */
+    color:  hsl(0, 0%, 0%); /* White text */
+    border-color: hsl(0, 0%, 0%); /* Custom border color (Tomato in this example) */
+}
+
+/* Change the border color on hover */
+.btn-primary:hover {
+    background-color: rgb(20, 20, 20); /* Darker blue on hover */
+    border-color: hsl(0, 0%, 0%); /* Darker Tomato on hover */
+}
+.container {
+    color: #333333; /* Default text color */
+}
+
+h2 {
+    color: #000000; /* Black for main headings */
+}
+
+label {
+    color: #555555; /* Dark gray for labels */
+}
+
+.table {
+    color: #333333; /* Dark gray for table text */
+}
+
+.table thead {
+    background-color: #f8f9fa; /* Light background for table headers */
+}
+
+.table th {
+    color: #000000; /* Black for table headers */
+}
+
+.table tfoot td {
+    font-weight: bold; /* Make the total row bold */
+    color: #000000; /* Black for footer text */
+}

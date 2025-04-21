@@ -1,0 +1,94 @@
+/* House Detail Container */
+.house-detail-container {
+    display: flex; /* ใช้ flexbox เพื่อจัดเรียงรูปภาพและเนื้อหา */
+    align-items: flex-start; /* จัดให้ตรงกับส่วนเริ่มต้น */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Image Section */
+.house-image {
+    flex: 1; /* ให้รูปภาพใช้พื้นที่ตามความเหมาะสม */
+    margin-right: 20px; /* ระยะห่างระหว่างรูปภาพและเนื้อหา */
+}
+
+.house-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Details Section */
+.house-details {
+    flex: 2; /* ให้เนื้อหาใช้พื้นที่มากกว่ารูปภาพ */
+    text-align: left;
+}
+
+.house-details h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.house-details p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Dropdown Section */
+.dropdown-toggle {
+    background-color: white; /* พื้นหลังเป็นสีขาว */
+    color: black; /* เปลี่ยนตัวอักษรเป็นสีดำ */
+    border: 1px solid white; /* เส้นขอบสีขาว */
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: left; /* จัดข้อความชิดซ้าย */
+}
+
+.dropdown-toggle:hover {
+    background-color: white; /* สีพื้นหลังเมื่อ hover */
+    color: black; /* ตัวอักษรยังคงเป็นสีดำเมื่อ hover */
+}
+
+.dropdown-content {
+    background-color: white; /* พื้นหลังของ dropdown เนื้อหาสีขาว */
+    color: black; /* ตัวอักษรสีดำ */
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: left; /* จัดข้อความชิดซ้าย */
+}
+
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Button styles */
+.btn-select, .btn-more {
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: black; /* เปลี่ยนตัวอักษรเป็นสีดำ */
+    border: 2px solid hsl(0, 0%, 0%); /* ขอบสีดำ */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect */
+.btn-select:hover, .btn-more:hover {
+    background-color: #ffffff;
+    color: black; /* ตัวอักษรยังคงเป็นสีดำขณะ hover */
+    border-color: #000000; /* เปลี่ยนสีขอบเมื่อ hover */
+}
+
+/* Responsive Design */

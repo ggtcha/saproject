@@ -1,0 +1,64 @@
+/* src/taskDetail.css */
+.task-detail {
+    max-width: 600px; /* กำหนดความกว้างสูงสุด */
+    margin: 20px auto; /* จัดกลาง */
+    padding: 20px; /* พื้นที่รอบๆ */
+    border: 1px solid #e0e0e0; /* ขอบของกล่อง */
+    border-radius: 8px; /* มุมโค้ง */
+    background-color: #ffffff; /* สีพื้นหลัง */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงา */
+    font-family: 'Arial', sans-serif; /* ฟอนต์ */
+}
+
+h2 {
+    font-size: 24px; /* ขนาดหัวข้อ */
+    color: #333; /* สีข้อความ */
+    margin-bottom: 15px; /* ระยะห่างด้านล่าง */
+    text-align: center; /* จัดกลาง */
+}
+
+p {
+    margin: 10px 0; /* ระยะห่างระหว่างย่อหน้า */
+    font-size: 16px; /* ขนาดฟอนต์ */
+    line-height: 1.5; /* ความสูงของบรรทัด */
+}
+
+strong {
+    color: #555; /* สีของข้อความที่ทำให้ตัวหนา */
+}
+
+.status {
+    font-weight: bold; /* ทำให้หนา */
+    padding: 5px 10px; /* เพิ่มพื้นที่รอบๆ */
+    border-radius: 4px; /* มุมโค้ง */
+}
+
+.status-in-progress {
+    color: #ffc107; /* สีข้อความ */
+    background-color: #fff3cd; /* สีพื้นหลัง */
+}
+
+.status-completed {
+    color: #28a745; /* สีข้อความ */
+    background-color: #d4edda; /* สีพื้นหลัง */
+}
+
+.status-pending {
+    color: #dc3545; /* สีข้อความ */
+    background-color: #f8d7da; /* สีพื้นหลัง */
+}
+
+/* ปรับให้ดูดีขึ้นสำหรับหน้าจอเล็ก */
+@media (max-width: 600px) {
+    .task-detail {
+        padding: 15px; /* ลด padding */
+    }
+
+    h2 {
+        font-size: 20px; /* ลดขนาดหัวข้อ */
+    }
+
+    p {
+        font-size: 14px; /* ลดขนาดฟอนต์ */
+    }
+}

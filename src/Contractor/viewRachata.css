@@ -1,0 +1,189 @@
+.view-gunthicha {
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .header-container h1 {
+    color: #333;
+    margin: 0;
+    flex: 1; /* Make the title take up space */
+    text-align: center;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    max-width: 200px;
+    margin: 0 20px;
+    border: 2px solid #333;
+    height: 0.5px; /* Thickness of the line */
+  }
+  
+  .gallery h2 {
+    margin: 20px 0;
+  }
+  
+  .card {
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .testimonials {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for testimonials */
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 1.8em; /* ขนาดของหัวข้อ */
+  }
+  
+  .contact-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* กำหนดขนาดความกว้างสูงสุดของฟอร์ม */
+    margin: 0 auto; /* จัดกึ่งกลาง */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  
+  .contact-form textarea {
+    height: 120px; /* กำหนดความสูงของ textarea */
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #555; /* สีของปุ่มเมื่อ hover */
+  }
+  
+  .project-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #C0C0C0; /* or any color that suits your design */
+  }
+  
+  .testimonials-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .testimonial-block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-name {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .review-stars i {
+    color: #ffd700; /* สีทองสำหรับดาว */
+    font-size: 1.2em;
+  }
+  
+  .review-text {
+    font-style: italic;
+    font-size: 1em;
+    color: #555;
+    text-align: left;
+    margin-top: 10px;
+  }
+  .view-gunthicha {
+    margin: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-container {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-left: 0; /* ลดระยะการเว้นระยะซ้าย */
+  }
+  
+  .header-title {
+    font-size: 1.5rem; /* ปรับขนาดตัวอักษรให้เล็กลง */
+    color: #333;
+    font-weight: bold;
+    margin-left: 0; /* ลดระยะห่างซ้ายสำหรับตัวอักษร */
+  }
+  
+  .header-divider {
+    width: 50%;
+    margin: 10px auto;
+    border: 2px solid #333;
+  }

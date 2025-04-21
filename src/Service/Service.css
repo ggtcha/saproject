@@ -1,0 +1,38 @@
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #007bff; /* เปลี่ยนสีให้ดูเด่นขึ้น */
+    transition: color 0.3s; /* เพิ่มการเปลี่ยนสี */
+}
+
+.service-icon:hover {
+    color: #0056b3; /* สีที่เข้มขึ้นเมื่อ hover */
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s; /* เพิ่ม transition สำหรับเงา */
+    border: none; /* ลบเส้นขอบ */
+    background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลังของ card */
+}
+
+.card:hover {  
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเมื่อ hover */
+}
+
+.card-title {
+    font-weight: bold;
+    color: #343a40; /* เปลี่ยนให้เข้มขึ้น */
+    margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.card-text {
+    color: #6c757d; /* เปลี่ยนสีให้ดูมีความละเอียด */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+/* สำหรับ Section Testimonials */
+blockquote-footer {
+    font-style: italic; /* ทำให้ข้อความเป็นตัวเอียง */
+    color: #ccc; /* เปลี่ยนสีให้ดูนุ่มนวล */
+}

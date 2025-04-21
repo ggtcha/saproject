@@ -1,0 +1,50 @@
+.materials-user-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.materials-user-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-material-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.user-material-table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.user-material-table th,
+.user-material-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-material-table th {
+    font-weight: 600;
+}
+
+.user-material-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-material-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.user-material-table td {
+    color: #555;
+}

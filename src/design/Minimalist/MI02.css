@@ -1,0 +1,95 @@
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* จัดให้อยู่ตรงกลาง */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff; /* สีพื้นหลังขาว */
+}
+
+.details-container {
+    display: flex; /* ใช้ flexbox เพื่อจัดเรียงตารางและภาพ */
+    justify-content: space-between; /* สลับตำแหน่งให้มีระยะห่าง */
+    align-items: flex-start; /* จัดตำแหน่งแนวตั้งที่ด้านบน */
+    width: 90%; /* ปรับความกว้าง */
+    max-width: 1200px; /* จำกัดความกว้างสูงสุด */
+    margin: 20px 0; /* เพิ่มระยะห่างด้านบนและล่าง */
+}
+
+.details-table {
+    width: 70%; /* ความกว้างของตาราง */
+    background-color: #f9f9f9; /* พื้นหลังตาราง */
+    border-radius: 5px; /* มุมโค้งของตาราง */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงา */
+    padding: 20px; /* เพิ่ม padding ภายในตาราง */
+    margin-right: 20px; /* เพิ่มระยะห่างทางด้านขวา */
+}
+
+.image-right {
+    width: 50%; /* ความกว้างของภาพ */
+    display: flex;
+    justify-content: center; /* จัดภาพให้อยู่ตรงกลาง */
+    align-items: center; /* จัดภาพในแนวตั้งให้อยู่กลาง */
+    margin-left: 20px; /* เพิ่มระยะห่างทางด้านซ้าย */
+}
+
+.small-image {
+    width: 100%; /* ทำให้รูปภาพเต็มความกว้าง */
+    height: 50px; /* ใช้ความสูงอัตโนมัติ */
+    border-radius: 5px; /* มุมโค้ง */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+table {
+    width: 100%; /* ให้ตารางเต็มความกว้าง */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px; /* ขยายขนาดฟอนต์ */
+}
+
+th {
+    background-color: #e0e0e0; /* สีหัวตาราง */
+    font-weight: bold;
+    color: #333; /* สีข้อความในหัวตาราง */
+}
+
+td {
+    color: #555; /* สีข้อความในตาราง */
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5; /* สีพื้นหลังแถวคู่ */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* สีพื้นหลังเมื่อโฮเวอร์ */
+}
+
+.price {
+    font-size: 22px; /* ขยายขนาดตัวอักษร */
+    font-weight: bold;
+    color: #000000; /* เปลี่ยนสีราคาให้เข้ม */
+    text-align: right;
+    margin: 20px 0;
+}
+
+.project-image {
+    width: 100%;
+    max-width: 1400px;
+    height: 700px; /* ปรับความสูงของภาพ */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ปรับภาพให้พอดีกับคอนเทนเนอร์ */
+}
