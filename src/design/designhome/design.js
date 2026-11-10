@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './design.css'; 
+import './design.css';
+import modernImg from '../../images/modern-house.jpg';
+import contemporaryImg from '../../images/contemporary-house.jpg';
 
 const Design = () => {
     return (
@@ -18,7 +20,7 @@ const Design = () => {
                 {/* 1 */}
                 <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
                     <div className="card hover-card" style={{ width: '100%' }}>
-                        <img src="https://postandporch.com/cdn/shop/articles/AdobeStock_209124760.jpg?v=1662575433&width=1440" className="card-img-top" alt="Modern style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
+                        <img src={modernImg} className="card-img-top" alt="Modern style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
                         <div className="card-body">
                             <h5 className="card-title">Modern Style</h5>
                             <p className="card-text">บ้านสไตล์โมเดิร์นที่มีพื้นที่ใช้สอยกว้างขวาง</p>
@@ -75,7 +77,7 @@ const Design = () => {
 
                 <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
                     <div className="card hover-card" style={{ width: '100%' }}>
-                        <img src="https://art-tech.co.th/wp-content/uploads/2022/04/fb-2-1024x497.jpg" className="card-img-top" alt="Contemporary style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
+                        <img src={contemporaryImg} className="card-img-top" alt="Contemporary style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
                         <div className="card-body">
                             <h5 className="card-title">Contemporary Style</h5>
                             <p className="card-text">บ้านที่ผสมผสานระหว่างสมัยใหม่และคลาสสิก ใช้เส้นสายที่เรียบง่าย แต่มีความหรูหรา</p>
