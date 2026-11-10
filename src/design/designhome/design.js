@@ -7,7 +7,7 @@ import contemporaryImg from '../../images/contemporary-house.jpg';
 
 const Design = () => {
     return (
-        <div className="container-fluid vh-100"> 
+        <div className="container-fluid min-vh-100 p-0"> 
             <h1 className="text-center">DESIGN</h1>
        
             <hr style={{
@@ -15,73 +15,73 @@ const Design = () => {
                 margin: 'auto',
                 border: '1px solid #000',
             }} />
-            <br /><br /><br />
-            <div className="row h-80">
+            <div className="my-5"></div>
+            <div className="row mx-0 px-md-4">
                 {/* 1 */}
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src={modernImg} className="card-img-top" alt="Modern style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Modern Style</h5>
                             <p className="card-text">บ้านสไตล์โมเดิร์นที่มีพื้นที่ใช้สอยกว้างขวาง</p>
-                            <a href="/modern" className="btn btn-primary">View details</a>
+                            <a href="/modern" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src="https://i0.wp.com/architropics.com/wp-content/uploads/2020/06/YNE-House_02.jpg?fit=1024%2C683&ssl=1" className="card-img-top" alt="Tropical style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Tropical Style</h5>
                             <p className="card-text">บ้านออกแบบเพื่ออากาศร้อนชื้น ด้วยวัสดุธรรมชาติ เช่น ไม้ หิน และพืชพรรณ</p>
-                            <a href="/tropical" className="btn btn-primary">View details</a>
+                            <a href="/tropical" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src="https://www.thespruce.com/thmb/iZ3l9p7xMKbWycZp8kEMxyAqJEE=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/american-colonial-style-architecture-5094947-hero-cf7de7e2627c4e07895a964cc0e6dc10.jpg" className="card-img-top" alt="Colonial style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Colonial Style</h5>
                             <p className="card-text">บ้านโคโลเนียลผสานสถาปัตยกรรมยุโรปกับวัสดุธรรมชาติ เช่น ไม้และหิน เหมาะกับอากาศร้อนชื้นและสะดวกสบายในการอยู่อาศัย</p>
-                            <a href="/Colonial" className="btn btn-primary">View details</a>
+                            <a href="/Colonial" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="row h-40 mt-4">
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+            <div className="row mx-0 px-md-4">
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src="https://img.freepik.com/premium-photo/modern-minimalist-house-design_999195-336.jpg" className="card-img-top" alt="Minimalist style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Minimalist Style</h5>
                             <p className="card-text">เน้นการออกแบบที่เรียบง่ายและสะอาดตา ใช้พื้นที่อย่างมีประสิทธิภาพ</p>
-                            <a href="/minimalist" className="btn btn-primary">View details</a>
+                            <a href="/minimalist" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src="https://cdn.houseplansservices.com/content/t9kqoc3miqd29id9h2hj7rovq9/w991x660.jpg?v=9" className="card-img-top" alt="Scandinavian style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Cottage Style</h5>
                             <p className="card-text">บ้านที่เน้นความเรียบง่ายและความอบอุ่น ใช้วัสดุธรรมชาติ</p>
-                            <a href="/cottage" className="btn btn-primary">View details</a>
+                            <a href="/cottage" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-md-4 d-flex align-items-center" style={{ paddingLeft: '100px' }}>
-                    <div className="card hover-card" style={{ width: '100%' }}>
+                <div className="col-12 col-md-6 col-lg-4 d-flex mb-5 px-4">
+                    <div className="card hover-card w-100">
                         <img src={contemporaryImg} className="card-img-top" alt="Contemporary style house" style={{ width: '100%', height: '250px', objectFit: 'cover' }} />
-                        <div className="card-body">
+                        <div className="card-body d-flex flex-column">
                             <h5 className="card-title">Contemporary Style</h5>
                             <p className="card-text">บ้านที่ผสมผสานระหว่างสมัยใหม่และคลาสสิก ใช้เส้นสายที่เรียบง่าย แต่มีความหรูหรา</p>
-                            <a href="/contemporary" className="btn btn-primary">View details</a>
+                            <a href="/contemporary" className="btn btn-primary mt-auto align-self-start">View details</a>
                         </div>
                     </div>
                 </div>
