@@ -80,3 +80,70 @@ button:hover {
   height: 100%; /* ให้รักษาสัดส่วน */
   border-radius: 10px; /* มุมโค้ง */
 }
+
+
+/* ===== หน้า Login แบบใหม่ ===== */
+.login-page {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.login-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 36px 32px;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-logo {
+  height: 64px;
+  width: auto;
+  margin-bottom: 12px;
+}
+
+.login-card h2 {
+  margin: 0 0 4px;
+  font-weight: 700;
+}
+
+.login-subtitle {
+  margin: 0 0 24px;
+  color: #777;
+  font-size: 14px;
+}
+
+.login-card form,
+.login-card .input-group {
+  text-align: left;
+}
+
+.login-card input:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.login-error {
+  background: #fdecea;
+  color: #b3261e;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login-submit {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.login-submit:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
