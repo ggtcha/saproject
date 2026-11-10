@@ -82,7 +82,7 @@ function CostEstimator() {
     };
 
     return (
-        <div className="container-fluid d-flex justify-content-center align-items-center flex-column"> {/* เพิ่ม class สำหรับจัดให้อยู่ตรงกลาง */}
+        <div className="container-fluid d-flex justify-content-center align-items-center flex-column cost-page"> {/* เพิ่ม class สำหรับจัดให้อยู่ตรงกลาง */}
             <h2>โปรแกรมประมาณราคาก่อสร้าง</h2>
    
             <label htmlFor="totalCost">ต้นทุน (หน่วย: บาท):</label>
@@ -104,7 +104,7 @@ function CostEstimator() {
                 คำนวณ
             </button>
     
-            <table className="table tabl-bordered mt-4" style={{ maxWidth: '80%' }}> {/* จำกัดความกว้างของตาราง */}
+            <table className="table cost-table cost-table-result mt-4"> {/* จำกัดความกว้างของตาราง */}
                 <thead>
                     <tr>
                         <th>No.</th>
@@ -127,8 +127,8 @@ function CostEstimator() {
                     </tr>
                 </tfoot>
             </table>
-            <h4 className="mt-4">รายละเอียดค่าแรงเฉลี่ยสำหรับแต่ละงาน</h4>
-            <table className="table table-striped table-bordered" style={{ maxWidth: '80%' }}> {/* จำกัดความกว้างของตาราง */}
+            <h4 className="cost-subtitle">รายละเอียดค่าแรงเฉลี่ยสำหรับแต่ละงาน</h4>
+            <table className="table table-striped cost-table cost-table-info"> {/* จำกัดความกว้างของตาราง */}
                 <thead>
                     <tr>
                         <th>รายการ</th>
